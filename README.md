@@ -1,71 +1,56 @@
 ### **UKButYouAreV2**
 
-**UKButYouAreV2** is a transformative mod for ULTRAKILL that reimagines the gameplay experience by placing you in the shoes of V2, the game's iconic boss. Dive into an aggressive, resource-intensive combat style inspired by this fearsome adversary, complete with unique mechanics and challenges.
+**UKButYouAreV2** is a mod for ULTRAKILL that puts you in the role of the game's iconic boss, V2. Step into the metal boots of this relentless killing machine and experience ULTRAKILL through the lens of your greatest rival, complete with a unique combat style and gameplay adjustments.
 
 ---
 
 ## 🌟 Features
 
-### **Modified Health System**
-- Base health reduced to **40 HP** (down from 100).
-- Permanent **AntiHP** fixed at 60, simulating V2's design.
-- **No Health Regeneration**: Forces strategic resource management.
-- Incoming damage reduced by **50%** to balance the lower HP pool.
+- **Play as V2**:
+  - Experience ULTRAKILL from the perspective of its most feared Supreme Machine, fully adapted for the player.
 
-### **Exclusive Equipment Changes**
-- **Knuckleblaster Only**: Start with the powerful Knuckleblaster (red arm) as your permanent arm.
-- **No Feedbacker**: The blue arm (Feedbacker) is completely removed, aligning your abilities with V2's aggressive combat style.
-- **Fixed Loadout**: Arms cannot be swapped, emphasizing a consistent and calculated approach to combat.
+- **Custom Health System**:
+  - Your health is capped at **40 HP**, with a fixed **60 AntiHP**—perfectly mimicking V2’s design.
+  - Health regeneration is removed, emphasizing precision and careful resource management.
+
+- **Signature Equipment**:
+  - You wield the **Knuckleblaster** as your permanent arm, a powerful tool for explosive combat.
+  - The Feedbacker is removed to match V2's aggressive playstyle, focusing entirely on offensive tactics.
+
+- **Rebalanced Gameplay**:
+  - Incoming damage is reduced by **50%**, balancing the reduced health pool while keeping the combat fast-paced and intense.
 
 ---
 
-## 🚀 Gameplay Philosophy
+## 🎮 What to Expect
 
-This mod is perfect for players who:
-- Enjoy high-risk, high-reward combat.
-- Appreciate strategic resource management over health regeneration.
-- Want to experience ULTRAKILL through the perspective of its iconic antagonist, V2.
-- Are looking for a fresh, challenging way to engage with the game’s mechanics.
+- **High-Risk, High-Reward Combat**:
+  - Every hit you take matters, and every attack you land feels impactful. This is a test of precision and strategy.
 
-By reducing health, eliminating regeneration, and focusing on offensive capabilities, **UKButYouAreV2** creates a gameplay experience that mirrors V2's relentless and explosive combat style.
+- **A Fresh Challenge**:
+  - Perfect for experienced ULTRAKILL players looking to explore a completely new way to play the game.
+
+- **A Tribute to V2**:
+  - Fans of the game’s iconic boss can now fully immerse themselves in its chaotic and calculated combat style.
 
 ---
 
 ## 📥 Installation
 
 ### Requirements
-- **BepInEx**: Ensure BepInEx is installed in your ULTRAKILL directory to use this mod.
+- **BepInEx**: Ensure BepInEx is installed in your ULTRAKILL directory.
 
 ### Steps to Install
 1. Download the latest release of **UKButYouAreV2** from the [Releases](https://github.com/MrRaposinha/UKButYouAreV2/releases) page.
 2. Place the `UKButYouAreV2.dll` file in your `BepInEx/plugins` folder.
    - If the `plugins` folder doesn’t exist, create it manually.
-3. Launch ULTRAKILL and become the ultimate Supreme Machine.
+3. Launch ULTRAKILL and embrace the power of V2.
 
 ---
 
-## 🎮 Who Is This Mod For?
+## ⚠️ Note
 
-This mod is ideal for:
-- **Experienced Players**: Those familiar with ULTRAKILL’s mechanics and looking for a fresh challenge.
-- **Fans of V2**: Players who want to step into the role of the game’s infamous boss and experience combat from their perspective.
-- **Challenge Seekers**: Gamers who enjoy managing limited resources and precise, aggressive gameplay.
-
----
-
-## 🔧 Technical Details
-
-**UKButYouAreV2** uses Harmony to:
-- Overhaul the player’s health and AntiHP systems.
-- Adjust loadout initialization to enforce Knuckleblaster exclusivity.
-- Ensure modifications persist through checkpoints and level transitions.
-- Prevent conflicts with the base game mechanics for a seamless experience.
-
----
-
-## ⚠️ Disclaimer
-
-This mod significantly alters ULTRAKILL’s gameplay balance. It is recommended for experienced players seeking a challenging and unique take on the game.
+This mod makes significant changes to the game’s balance. It’s recommended for experienced players who want to challenge themselves with a fresh perspective.
 
 ---
 
@@ -75,4 +60,4 @@ This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) f
 
 ---
 
-Thank you for playing **UKButYouAreV2**! Embrace the power of V2 and unleash havoc in ULTRAKILL like never before. 🎮🔥
+Thank you for playing **UKButYouAreV2**! Step into the role of ULTRAKILL’s ultimate machine and wreak havoc. 🎮🔥
