@@ -37,7 +37,7 @@ By reducing health, eliminating regeneration, and focusing on offensive capabili
 - **BepInEx**: Ensure BepInEx is installed in your ULTRAKILL directory to use this mod.
 
 ### Steps to Install
-1. Download the latest release of **UKButYouAreV2** from the [Releases](https://github.com/YourRepo/UKButYouAreV2/releases) page.
+1. Download the latest release of **UKButYouAreV2** from the [Releases](https://github.com/MrRaposinha/UKButYouAreV2/releases) page.
 2. Place the `UKButYouAreV2.dll` file in your `BepInEx/plugins` folder.
    - If the `plugins` folder doesn’t exist, create it manually.
 3. Launch ULTRAKILL and become the ultimate Supreme Machine.
