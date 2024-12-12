@@ -1,67 +1,90 @@
 ### **UKButYouAreV2**
 
-**UKButYouAreV2** lets you step into the role of ULTRAKILL's iconic boss, V2. Take on the game from the perspective of this relentless Supreme Machine, featuring aggressive combat mechanics, resource management challenges, and now, full customization to tweak the experience to your liking.
+If you're looking for a more modern and actively supported mod, check out [Play as V2](https://thunderstore.io/c/ultrakill/p/kingofkretaceous/Play_as_V2/), a more updated take on this concept!
+
+**UKButYouAreV2** is a gameplay overhaul mod for ULTRAKILL, offering a fully customizable experience inspired by the game's infamous V2. With increased survivability, aggressive combat mechanics, and an integrated settings menu, this final version (v2.0.0 [EoL]) delivers a powerful and flexible way to play.
 
 ---
 
 ## 🌟 Features
 
-- **Play as V2**:
-  - Become ULTRAKILL’s most infamous machine, adapted for a player-controlled experience.
+### **Enhanced Survivability**
+- **Increased Base Health**: Start each level with **400 HP**, significantly boosting your durability.
+- **SuperCharge Buff**: The SuperCharge ability now heals **800 HP**, ensuring powerful recovery during intense fights.
+- **Optional Health Regeneration**: Enable regeneration through the settings menu, allowing up to 400 HP recovery.
 
-- **Custom Health System**:
-  - Health capped at **40 HP**, with a fixed **60 AntiHP**, just like V2.
-  - Health regeneration is customizable, from completely off to gradual recovery.
+### **Aggressive Combat Design**
+- **Knuckleblaster Only**: The red arm is locked as your only melee option, emphasizing explosive and offensive combat.
+- **Feedbacker Removed**: The blue arm is disabled, focusing on a pure, aggressive playstyle.
 
-- **Signature Combat**:
-  - The **Knuckleblaster** is your permanent arm, perfect for explosive melee combat.
-  - The Feedbacker is removed, encouraging a pure, aggressive playstyle.
+### **Damage Resistance Control**
+- **Adjustable Damage Reduction**: A slider in the settings lets you fine-tune your resistance:
+  - **0%**: No damage reduction (default).
+  - **100%**: Full invincibility.
 
-- **Dynamic Damage Scaling**:
-  - Incoming damage can now be adjusted with a slider, from no reduction to scaling reductions (e.g., half damage, one-third damage, etc.).
+### **AntiHP Disabled**
+- The AntiHP system, which limits health regeneration, is completely removed, giving you full freedom to recover health.
 
-- **Configuration Menu**:
-  - Easily toggle the mod on or off.
-  - Adjust health regeneration and damage reduction directly from the in-game menu.
+### **Integrated Settings Menu**
+- Powered by **Configgy**, the menu allows easy customization of:
+  - Mod toggle (on/off).
+  - Health regeneration (enabled/disabled).
+  - Damage reduction slider (0-100%).
 
 ---
 
-## 🎮 What to Expect
+## 🎮 Why Use This Mod?
 
-- **High-Risk, High-Reward Combat**:
-  - Every hit you take is meaningful, and every attack must count. Expect intense, precision-based gameplay.
-
-- **A Fresh Perspective**:
-  - Perfect for experienced players seeking a new challenge or fans of V2’s chaotic and calculated combat style.
-
-- **Full Customization**:
-  - Fine-tune the gameplay to fit your preferred level of difficulty and style.
+- **Survivability**: Handle tougher encounters with increased health and optional regeneration.
+- **Aggressive Combat Focus**: Remove defensive mechanics and dive into melee-centric gameplay.
+- **Customizable Difficulty**: Tailor the experience with damage resistance and regeneration settings.
+- **Fresh Gameplay**: Experience ULTRAKILL through V2’s relentless and powerful design.
 
 ---
 
 ## 📥 Installation
 
 ### Requirements
-- **BepInEx**: Ensure BepInEx is installed in your ULTRAKILL directory.
+- **BepInEx 5.4+**: A framework for modding Unity-based games.
+- **Configgy**: Required for the in-game settings menu.
 
 ### Steps to Install
-1. Download the latest release of **UKButYouAreV2** from the [Releases](https://github.com/MrRaposinha/UKButYouAreV2/releases) page.
-2. Place the `UKButYouAreV2.dll` file in your `BepInEx/plugins` folder.
-   - If the `plugins` folder doesn’t exist, create it manually.
-3. Launch ULTRAKILL and start playing as the ultimate Supreme Machine.
+1. **Install BepInEx**:
+   - Download the latest BepInEx 5.x (x64) release from the [official GitHub page](https://github.com/BepInEx/BepInEx/releases).
+   - Extract the contents into your ULTRAKILL game folder (where `ULTRAKILL.exe` is located).
+   - Run the game once to initialize BepInEx.
+
+2. **Install Configgy**:
+   - Download Configgy from its repository or mod page and place it in the `BepInEx/plugins` folder.
+
+3. **Install UKButYouAreV2**:
+   - Download the `UKButYouAreV2.dll` file from the [Releases](https://github.com/MrRaposinha/UKButYouAreV2/releases) page.
+   - Place the file into your `BepInEx/plugins` folder.
+
+4. **Launch the Game**:
+   - Start ULTRAKILL. Access the settings menu to customize your experience.
 
 ---
 
-## ⚠️ Note
+## 🔧 Technical Details
 
-This mod significantly changes ULTRAKILL’s balance and is recommended for players looking for a unique and challenging experience.
+- **Patched Classes**:
+  - `NewMovement` for health and AntiHP management.
+  - `FistControl` for enforcing Knuckleblaster use.
+  - `HealthBar` for removing AntiHP effects.
+
+- **Persistent Settings**:
+  - Your configurations are saved and loaded automatically with each game session.
+
+- **Performance Optimized**:
+  - The mod is designed to work seamlessly with minimal impact on game performance.
 
 ---
 
-## 📜 License
+## ⚠️ End of Life Notice
 
-This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.
+This is the final version of **UKButYouAreV2**. No further updates or support will be provided. While the mod is designed for compatibility, conflicts with other mods that modify similar mechanics may occur.
 
 ---
 
-Thank you for playing **UKButYouAreV2**! Take on ULTRAKILL like never before and conquer the game as its most unstoppable machine. 🎮🔥
+Thank you for playing **UKButYouAreV2**! While support ends here, we hope this mod provides a unique and enjoyable experience as ULTRAKILL's Supreme Machine. 🎮🔥
